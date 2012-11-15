@@ -11,11 +11,9 @@
 #include <errno.h>
 #include <pthread.h>
 
-char message[] = "Hello there!\n";
 char buf[4096];
 
 #define WRKDIR_LEN	256
-#define DEFDIR		"."
 
 #define LIST	4 /* LIST dir/chdir */
 #define CWD		8 /* CHD dir/chdir */
